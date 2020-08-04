@@ -1,0 +1,205 @@
+/***HEADER***/
+
+nav{
+    padding: 40px 20px;
+}
+
+nav ul li{
+    font-family: open sans;
+    display: inline-block;
+    padding: 0px 30px;
+    text-transform: uppercase;
+    color: #c31e1e;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#c31e1e;
+}
+
+header{
+        background: url("../img/crashed-car.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 800px;
+    }
+
+header h1 {
+    font-family: boogaloo;
+    font-size: 96px;
+    font-weight: 700;
+    float: right;
+    clear: both;
+    padding: 0px 60px;
+    color: #c31e1e;
+    margin: 0;
+}
+
+header h2 {
+    font-family: boogaloo;
+    font-size: 56px;
+    font-weight: 400;
+    float: right;
+    padding: 0px 382px;
+    color: #c31e1e;
+}
+
+/***ABOUT***/
+
+#half-width-left {
+    padding: 50px 75px 16px 125px;
+    width: 450px;
+    float: left;
+    line-height: 35px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#half-width-right {
+    padding: 50px 150px 50px 100px;
+    float: right;
+    width: 450px;
+    line-height: 35px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#about{
+    background-color: #c3a61e;
+    height: 450px;
+}
+
+#about p{
+    font-size: 20px;
+    font-family: open sans;
+}
+
+span{
+    color: #c31e1e;
+}
+
+/*** TESTIMONIALS***/
+
+#testimonials{
+    clear: both;
+    height: auto;
+    background-color:#f9931e;
+    margin: 0px;
+    padding: 40px 70px 40px 175px;
+    font-family: open sans;
+}
+
+#testimonials h2{
+    margin: 0 150px 0 0;
+    padding: 40px 60px 40px 40px;
+    text-align: center;
+    font-family: boogaloo;
+    color: white;
+    font-size: 56px;
+}
+
+#testimonials h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#testimonials p{
+    line-height: 35px;
+    text-align: center;
+}
+
+#dj-section{
+    height: 400px;
+    padding-top: 50px;
+}
+
+#dj-image, #bicycle-image, #radio-image{
+    height: 300px;
+    width: 400px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+#dj-text, #radio-text{
+    float: left;
+    width: 600px;
+    margin-top: 75px;
+}
+
+#dj-image, #radio-image{
+    float: right;
+    margin-right: 175px;
+}
+
+#bicycle-section, #radio-section{
+    height: 400px
+}
+
+#bicycle-image{
+    clear: both;
+}
+
+#bicycle-text{
+    float: right;
+    margin: 75px 100px 0 0;
+}
+
+/***CONTACTS***/
+
+#contacts{
+    background-color: #a775d2;
+    height: 450px;
+}
+
+#contacts h2{
+    text-align: center;
+    font-family: boogaloo;
+    color: white;
+    font-size: 56px;
+    margin: 0px;
+    padding: 80px 0;
+}
+
+#contacts .third-width{
+    float: left;
+    width: 250px;
+    text-align: center;
+    font-family: open sans;
+}
+
+#telephone-section{
+    margin-left: 300px;
+}
+
+#mouth-section{
+    margin: 0 75px;
+}
+
+#yp-section{
+
+}
+
+#telephone-icon, #mouth-icon, #yellow-pages-icon{
+    height: 50px;
+    width: 50px;
+}
+
+/***FOOTER***/
+
+footer{
+    clear: both;
+    background-color: #e5562b;
+}
+
+footer h2{
+    margin: 0;
+    height: 200px;
+    font-family: boogaloo;
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    font-size: 72px;
+}
